@@ -25,6 +25,20 @@ signWithPopup(auth, provider).then(result => {
 
 11.  to show the user info to ui, need to use state
 
+//to use github authentication
+=================================
+1. go to authentication > sign in method > go to github
+
+2. go to your personal github account > setting > register a new OAuth application > get authorized classback url from firebase github > copy & paste > "register application"
+
+3. get the client id  and client secret from github and paste them to authentication and save.
+
+4. go does > authentication > web > github
+
+5. copy provider 
+
+6. set the event handler.
+
 =============================
 SDK : software development kit 
 =============================
